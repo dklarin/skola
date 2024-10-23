@@ -11,3 +11,7 @@ def cs_for():
     links = ['https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EcnuvNGqQolHuclIkDsD7UwB5ASsPrBx6XXigbQjW7TUag?e=q1fsQU', 
              'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EeKg_7A-TW1Cp8nw7P8Py2cBxEJ2qi2rDsnnf2Gz3Zj_Fw?e=7Yyiug', 'Nije loše']
     return render_template('cs-for.html', links=links)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+    #app.run(host='0.0.0.0', port=4000)
