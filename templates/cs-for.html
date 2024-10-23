@@ -1,7 +1,13 @@
 <!-- CONTROL STRUCTURES - FOR -->
 
+<h1>Operacijski sustavi</h1>
+
 <ul>
-  {% for link in links %}
-  <li><a href="{{ link }}">Link</a></li>
+  {% for name, link in links.items() %}
+  <li><a href="{{ link }}">{{ name }}</a></li>
   {% endfor %}
 </ul>
+
+<!--{% for link in links %}
+<li><a href="{{ link }}">Link</a></li>
+{% endfor %}-->
