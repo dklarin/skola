@@ -1,9 +1,33 @@
 <!-- CONTROL STRUCTURES - FOR -->
 
+<h1>Informacijske tehnologije</h1>
+
+<ul>
+  {% for name, link in links_it.items() %}
+  <li><a href="{{ link }}">{{ name }}</a></li>
+  {% endfor %}
+</ul>
+
 <h1>Operacijski sustavi</h1>
 
 <ul>
   {% for name, link in links.items() %}
+  <li><a href="{{ link }}">{{ name }}</a></li>
+  {% endfor %}
+</ul>
+
+<h1>Skriptni jezici i web programiranje 3 (Predavanja)</h1>
+
+<ul>
+  {% for name, link in links_sjwp_n.items() %}
+  <li><a href="{{ link }}">{{ name }}</a></li>
+  {% endfor %}
+</ul>
+
+<h1>Skriptni jezici i web programiranje 3 (Učenici)</h1>
+
+<ul>
+  {% for name, link in links_sjwp_u.items() %}
   <li><a href="{{ link }}">{{ name }}</a></li>
   {% endfor %}
 </ul>
