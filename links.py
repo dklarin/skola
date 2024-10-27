@@ -3,6 +3,10 @@ links_it = {
     '2.2. Mehanički strojevi': 'EW6XoAHCgrJJp53EbHc-5-sBENP-lA0B1wwzxaK7uTl6Uw'
                     }
 
+software = {
+    'LatencyMon': 'EdYlk4AUohBDvmbQZSBwhDUBolAQTunb4ME31mcWn_BY9g'
+}
+
 
 links = {    
     '4. MBR, Particije': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EeJbJkwhqF9EiubGYPLHL-ABYDQh-gIawdFMH59lruZQcQ?e=8CCr7j',

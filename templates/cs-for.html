@@ -32,6 +32,14 @@
   {% endfor %}
 </ul>
 
+<h1>Software</h1>
+
+<ul>
+  {% for name, link in software.items() %}
+  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+  {% endfor %}
+</ul>
+
 <!--{% for link in links %}
 <li><a href="{{ link }}">Link</a></li>
 {% endfor %}-->
