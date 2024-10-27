@@ -2,10 +2,11 @@ from flask import Flask, render_template
 from links import *
 app = Flask(__name__)
 
+var = 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/'
 
 @app.route('/')
 def index():
-    return render_template('cs-for.html', links_it=links_it,links=links, links_sjwp_u=links_sjwp_u, links_sjwp_n=links_sjwp_n)
+    return render_template('cs-for.html', var=var,links_it=links_it,links=links, links_sjwp_u=links_sjwp_u, links_sjwp_n=links_sjwp_n)
 
 if __name__ == "__main__":
     app.run(debug=True)

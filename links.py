@@ -1,8 +1,7 @@
 links_it = {    
-    '2.1. Prva pomagala za računanje': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/ERrqltsrgQtMqbFEOu4r_gwBeG05XcpWnAOzKPRJUYxUXQ?e=cXVdzg',
-   
-
-        }
+    '2.1. Prva pomagala za računanje': 'ERrqltsrgQtMqbFEOu4r_gwBeG05XcpWnAOzKPRJUYxUXQ',
+    '2.2. Mehanički strojevi': 'EW6XoAHCgrJJp53EbHc-5-sBENP-lA0B1wwzxaK7uTl6Uw'
+                    }
 
 
 links = {    
