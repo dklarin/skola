@@ -4,7 +4,7 @@ links_it = {
                     }
 
 software = {
-    'LatencyMon': 'EdYlk4AUohBDvmbQZSBwhDUBolAQTunb4ME31mcWn_BY9g'
+    'LatencyMon 7.31 (Home Edition)': 'EdYlk4AUohBDvmbQZSBwhDUBolAQTunb4ME31mcWn_BY9g'
 }
 
 
@@ -14,11 +14,12 @@ links = {
     '6. Prioritet prekida, Programski prekidi': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EcnuvNGqQolHuclIkDsD7UwB5ASsPrBx6XXigbQjW7TUag?e=q1fsQU'
         }
 
+# Prezentacije učenika
 links_sjwp_u = {    
-    '1. Flexbox u CSS-u': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/Eaz2wjZ3oJ1LmyLKWPZXSgQB8cdoSxOpqFJiOb74PScJjw?e=hQhDC8',
-    '2. HTML': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/ESd-HSjMVspDkrZoauuS8BMB2PeBkb5upkj3NlUUc1ooFg?e=MYnOcs',
-
-        }
+    '1. Flexbox u CSS-u': 'Eaz2wjZ3oJ1LmyLKWPZXSgQB8cdoSxOpqFJiOb74PScJjw?e=hQhDC8',
+    '2. HTML': 'ESd-HSjMVspDkrZoauuS8BMB2PeBkb5upkj3NlUUc1ooFg?e=MYnOcs',
+    '3. Općenito o CSS-u': 'EX_ZjWSlj2dCm9Y0p396cP4BoNrDer4GpFVVBhry7uPFoA?e=YLUfoM'
+}
 
 links_sjwp_n = {    
     '12. Metaelementi': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/Ea2MgErHr7ZPi_DqNpaTFbkBbVwxDh0MnLd1Xd6ck3FAUQ?e=8ai7eZ',
