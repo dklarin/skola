@@ -27,5 +27,13 @@ links_sjwp_n = {
 
         }
 
+flask = {
+    '1. Prvi projekt': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg?e=8pBKbq'
+}
+
+web_dizajn = {
+    '1. Flask 1: Dinamička ruta, if-else i for': 'Efpp7buw9NhHtZxXixSblXAB7jIzAqIa-dCLDwsGMJ7Ymw?e=fg0KLO'
+}
+
 
 

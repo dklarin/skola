@@ -32,6 +32,22 @@
   {% endfor %}
 </ul>
 
+<h1>Flask</h1>
+
+<ul>
+  {% for name, link in flask.items() %}
+  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+  {% endfor %}
+</ul>
+
+<h1>Kodovi</h1>
+
+<ul>
+  {% for name, link in web_dizajn.items() %}
+  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+  {% endfor %}
+</ul>
+
 <h1>Software</h1>
 
 <ul>
