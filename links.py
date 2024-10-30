@@ -3,9 +3,7 @@ links_it = {
     '2.2. Mehanički strojevi': 'EW6XoAHCgrJJp53EbHc-5-sBENP-lA0B1wwzxaK7uTl6Uw'
                     }
 
-software = {
-    'LatencyMon 7.31 (Home Edition)': 'EdYlk4AUohBDvmbQZSBwhDUBolAQTunb4ME31mcWn_BY9g'
-}
+
 
 
 links = {    
@@ -28,12 +26,16 @@ links_sjwp_n = {
         }
 
 flask = {
+   '1. Prvi flask': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg'
+}
+
+web_dizajn = {
     '1. Prvi flask': 'ERTl0zFiBq9Gpey1rEWdpKMBgv2EnhuyqsI3plEBm88LLw',
     '2. Templates 1': 'EdsvBpoxK6VOix_meBfAMSgBAK3sGkHL7hjrc3DbBXgHEQ'
 }
 
-web_dizajn = {
-    '1. Flask 1: Dinamička ruta, if-else i for': 'Efpp7buw9NhHtZxXixSblXAB7jIzAqIa-dCLDwsGMJ7Ymw?e=fg0KLO'
+software = {
+    'LatencyMon 7.31 (Home Edition)': 'EdYlk4AUohBDvmbQZSBwhDUBolAQTunb4ME31mcWn_BY9g'
 }
 
 

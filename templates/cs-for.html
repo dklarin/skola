@@ -1,61 +1,73 @@
-<!-- CONTROL STRUCTURES - FOR -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<h1>Informacijske tehnologije</h1>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
 
-<ul>
-  {% for name, link in links_it.items() %}
-  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
-  {% endfor %}
-</ul>
+  <body>
+    <h1>Informacijske tehnologije</h1>
 
-<h1>Operacijski sustavi</h1>
+    <ul>
+      {% for name, link in links_it.items() %}
+      <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
 
-<ul>
-  {% for name, link in links.items() %}
-  <li><a href="{{ link }}">{{ name }}</a></li>
-  {% endfor %}
-</ul>
+    <h1>Operacijski sustavi</h1>
 
-<h1>Skriptni jezici i web programiranje 3 (Predavanja)</h1>
+    <ul>
+      {% for name, link in links.items() %}
+      <li><a href="{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
 
-<ul>
-  {% for name, link in links_sjwp_n.items() %}
-  <li><a href="{{ link }}">{{ name }}</a></li>
-  {% endfor %}
-</ul>
+    <h1>Skriptni jezici i web programiranje 3 (Predavanja)</h1>
 
-<h1>Skriptni jezici i web programiranje 3 (Učenici)</h1>
+    <ul>
+      {% for name, link in links_sjwp_n.items() %}
+      <li><a href="{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
 
-<ul>
-  {% for name, link in links_sjwp_u.items() %}
-  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
-  {% endfor %}
-</ul>
+    <h1>Skriptni jezici i web programiranje 3 (Učenici)</h1>
 
-<h1>Flask</h1>
+    <ul>
+      {% for name, link in links_sjwp_u.items() %}
+      <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
 
-<ul>
-  {% for name, link in flask.items() %}
-  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
-  {% endfor %}
-</ul>
+    <h1>Flask</h1>
 
-<h1>Kodovi</h1>
+    <ul>
+      {% for name, link in flask.items() %}
+      <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
 
-<ul>
-  {% for name, link in web_dizajn.items() %}
-  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
-  {% endfor %}
-</ul>
+    <h1>Kodovi</h1>
 
-<h1>Software</h1>
+    <ul>
+      {% for name, link in web_dizajn.items() %}
+      <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
 
-<ul>
-  {% for name, link in software.items() %}
-  <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
-  {% endfor %}
-</ul>
+    <h1>Software</h1>
 
-<!--{% for link in links %}
+    <ul>
+      {% for name, link in software.items() %}
+      <li><a href="{{var}}{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <!--{% for link in links %}
 <li><a href="{{ link }}">Link</a></li>
 {% endfor %}-->
+  </body>
+</html>
