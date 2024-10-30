@@ -28,7 +28,8 @@ links_sjwp_n = {
         }
 
 flask = {
-    '1. Prvi projekt': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg?e=8pBKbq'
+    '1. Prvi flask': 'ERTl0zFiBq9Gpey1rEWdpKMBgv2EnhuyqsI3plEBm88LLw',
+    '2. Templates 1': 'EdsvBpoxK6VOix_meBfAMSgBAK3sGkHL7hjrc3DbBXgHEQ'
 }
 
 web_dizajn = {
