@@ -1,16 +1,30 @@
 links_it = {    
     '2.1. Prva pomagala za računanje': 'ERrqltsrgQtMqbFEOu4r_gwBeG05XcpWnAOzKPRJUYxUXQ',
-    '2.2. Mehanički strojevi': 'EW6XoAHCgrJJp53EbHc-5-sBENP-lA0B1wwzxaK7uTl6Uw'
-                    }
+    '2.2. Mehanički strojevi': 'EW6XoAHCgrJJp53EbHc-5-sBENP-lA0B1wwzxaK7uTl6Uw',
+    '2.3. Elektromehanički strojevi': 'EaeZEZvvU9JBsAwisI63UTwBuOdU-BMPv0H-JDLGT-aVzw',
+    '2.4. Elektronička računala': 'EfLHXHT6SL1Mg6vP4w7aXL8BVyg_q_uA_iS2MymJDTI6LQ',
+    '2.5. Osobna računala': 'EfAZqHYJrE9Cjkf9ditARlEBzd7joQCuv2Uqr5-QRq1zFg',
+    '3.1. Računalno sklopovlje': 'EYz6AdfpYlFBjw9zlixE0L0B5ULEP8PuzATahSfSMHT3jA',
+    '3.2. Glavni dijelovi računala': 'Edk705kaRzBBvPnYdZvs1NYByTCQOA7Dij1Ja8y4Jab4Eg',
+    '4.5. Autorska prava i distribucija programa': 'EfC_38Iy4eFLunHQzdeKrsgBL1j3K_E2er55nKsmYO0z0A',
+    '4.6. Zlonamjerni programi': 'EZD56h3fcd9Dvce5tzY2-sgBeG1dUZUJCBFX8VK46K9Xnw',
+    '4.7. Pričuvna pohrana podataka': 'EcIEdV7OifdBtiKsUiVx888BAbz7_dTjQWKUGNl0gCflLA'
+}
 
-
+software = {
+    'LatencyMon 7.31 (Home Edition)': 'EdYlk4AUohBDvmbQZSBwhDUBolAQTunb4ME31mcWn_BY9g'
+}
 
 
 links = {    
-    '4. MBR, Particije': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EeJbJkwhqF9EiubGYPLHL-ABYDQh-gIawdFMH59lruZQcQ?e=8CCr7j',
-    '5. Načelo prekida, Dodjeljivač sabirnice, Zahtjev-prihvat, Vektor prekida': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EeKg_7A-TW1Cp8nw7P8Py2cBxEJ2qi2rDsnnf2Gz3Zj_Fw?e=7Yyiug',
-    '6. Prioritet prekida, Programski prekidi': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EcnuvNGqQolHuclIkDsD7UwB5ASsPrBx6XXigbQjW7TUag?e=q1fsQU',
-    '7. Program, proces, dretva, raspoređivanje po vremenu i prioritetu ': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/EXHhDnOEyC1GuNbQUEii8H4BM2LF5Smkf4OVMy9HMjIgAw?e=dVGmnT'   }
+    '1. Uvod': 'ESjQtcFLbsJOnthinieDf0oBSKcs5uW_vL9TadUCX8avXQ',
+    '2. Pregled operacijskih sustava': 'Ect-CYUsa-9Npuwo0yQuxvMBUs5M6Vdrv2AgvmWAUk3Hmg',
+    '3. Pokretanje': 'EXTKN7RuKKtIlpGus0GUyzsBOCQFOYwl64c6bqbuD-LMiw',
+    '4. MBR, Particije': 'EeJbJkwhqF9EiubGYPLHL-ABYDQh-gIawdFMH59lruZQcQ',
+    '5. Načelo prekida, Dodjeljivač sabirnice, Zahtjev-prihvat, Vektor prekida': 'EeKg_7A-TW1Cp8nw7P8Py2cBxEJ2qi2rDsnnf2Gz3Zj_Fw',
+    '6. Prioritet prekida, Programski prekidi': 'EcnuvNGqQolHuclIkDsD7UwB5ASsPrBx6XXigbQjW7TUag',
+    '7. Program, proces, dretva, raspoređivanje po vremenu i prioritetu ': 'EXHhDnOEyC1GuNbQUEii8H4BM2LF5Smkf4OVMy9HMjIgAw'   
+}
 
 # Prezentacije učenika
 links_sjwp_u = {    
@@ -26,16 +40,11 @@ links_sjwp_n = {
         }
 
 flask = {
-   '1. Prvi flask': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg'
+    '1. Prvi projekt': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg?e=8pBKbq'
 }
 
 web_dizajn = {
-    '1. Prvi flask': 'ERTl0zFiBq9Gpey1rEWdpKMBgv2EnhuyqsI3plEBm88LLw',
-    '2. Templates 1': 'EdsvBpoxK6VOix_meBfAMSgBAK3sGkHL7hjrc3DbBXgHEQ'
-}
-
-software = {
-    'LatencyMon 7.31 (Home Edition)': 'EdYlk4AUohBDvmbQZSBwhDUBolAQTunb4ME31mcWn_BY9g'
+    '1. Flask 1: Dinamička ruta, if-else i for': 'Efpp7buw9NhHtZxXixSblXAB7jIzAqIa-dCLDwsGMJ7Ymw?e=fg0KLO'
 }
 
 
