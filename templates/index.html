@@ -1,0 +1,105 @@
+<!-- TEMPLATE INHERITANCE 2 -->
+
+{% extends "base.html" %} {% block head %} {{ super() }}
+
+<style></style>
+
+{% endblock %} 
+
+
+
+{% block content %}
+
+<div class=" container-fluid text-left">
+    <div class="row">
+        <div class="col-md-2 sidenav">
+           
+        </div>
+        <div class="col-md-8 text-center">
+                <div class="page-header">
+    
+                    <a href="{{ link1 }}" class="btn btn-primary btn-lg" role="button" aria-disabled="true">
+                        Europe</a>
+                    <a href="{{ link2 }}" class="btn btn-primary btn-lg" role="button" aria-disabled="true">
+                        North America</a>
+                    <a href="/jobs/australia" class="btn btn-primary btn-lg" role="button" aria-disabled="true">
+                        Australia</a>
+    
+                </div>
+            </div>
+            <div class="col-md-2 sidenav">
+    
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-2 sidenav">
+            </div>
+    
+            <div class="col-md-8 text-center">
+    
+               
+    
+                
+            </div>
+    
+            <div class="col-md-2 sidenav">
+            </div>
+    
+        </div>
+
+        <div class="row">
+       
+
+                <div class="col-md-12 text-center">
+        
+                    <h1>Java jobs: Europe</h1>
+                    <br>
+        
+        
+                </div>
+               
+            </div>
+
+        <div class="row">
+            <div class="col-md-2 sidenav">
+    
+            </div>
+            <div class="col-md-8 text-left">
+                <div class="moja">
+    
+                    
+                        
+                    <ul>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                              
+                            </tr>
+                        </thead>
+                        <tbody>
+                          {% for name, link in links_it.items() %}
+                            <tr>
+                              
+
+
+                              
+                                <td><a href="{{var}}{{ link }}">{{ name }}</a></td>
+                             
+
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2 sidenav">
+            
+        </div>
+    </div>
+</div>
+
+{% endblock %}
