@@ -19,33 +19,49 @@ def index():
                            flask=flask
                            )
 
-
-
 # flask-bootstrap
 @app.route('/it')
 def informacijske_tehnologije():
-    name = '/it'
-    return render_template('index.html', name=name, links_it=links_it)
+    title = 'Informacijske tehnologije'
+    return render_template('index.html', var=var, title=title, links_it=links_it)
 
 # flask-bootstrap
 @app.route('/opsus')
 def operacijski_sustavi():
+    title = 'Operacijski sustavi'
     link1 = '/opsus'
     link2 = '/sjwp'
-    return render_template('index.html', link1=link1, link2=link2, links_it=links_it)
+    link3 = '/pmu'
+    return render_template('index.html', 
+                           var=var,
+                           title=title, 
+                           link1=link1, 
+                           link2=link2, 
+                           link3=link3, 
+                           links_it=links
+                           )
 
 # flask-bootstrap
 @app.route('/sjwp')
 def skriptni_jezici_i_web_programiranje():
+    title = 'Skriptni jezici i web programiranje'
     link1 = '/opsus'
     link2 = '/sjwp'
-    return render_template('index.html', link1=link1, link2=link2, links_it=links)
+    link3 = '/pmu'
+    return render_template('index.html', 
+                           var=var, 
+                           title=title, 
+                           link1=link1, 
+                           link2=link2, 
+                           link3=link3, 
+                           links_it=links_sjwp_n
+                           )
 
 # flask-bootstrap
 @app.route('/react-native')
 def react_native():
-    name = 'Župa Svetoga Duha Tisno'
-    return render_template('index.html', name=name, links_it=links)
+    title = 'Programiranje mobilnih uređaja'
+    return render_template('index.html', title=title, links_it=links)
 
 if __name__ == "__main__":
     app.run(debug=True)
