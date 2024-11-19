@@ -63,7 +63,7 @@ def skriptni_jezici_i_web_programiranje():
 
 # flask-bootstrap
 @app.route('/wd')
-def web_dizajn():
+def web_dizajn_3():
     title = 'Web dizajn'
     link1 = '/opsus'
     link2 = '/sjwp'
@@ -76,7 +76,7 @@ def web_dizajn():
                            link2=link2, 
                            link3=link3, 
                            link4=link4,
-                           links_it=web_dizajn_3
+                           links_it=links_web_dizajn_3
                            )
 
 # flask-bootstrap

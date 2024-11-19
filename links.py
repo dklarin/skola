@@ -49,7 +49,7 @@ web_dizajn = {
     '1. Flask 1: Dinamička ruta, if-else i for': 'Efpp7buw9NhHtZxXixSblXAB7jIzAqIa-dCLDwsGMJ7Ymw?e=fg0KLO'
 }
 
-web_dizajn_3 = {
+links_web_dizajn_3 = {
     '1.1.3. Upoznavanje sa sučeljem': 'EWxGBt47OhpPp1Eazt8aEzABeEtcUacjiaPI3vo0GKo4fw',
     '1.2. Izrada novog dokumenta': 'EYhn-L3DcjRHktX8kg6YrDcB5eUwSGaEjXIv72RbGUoYDQ'
 }
