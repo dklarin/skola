@@ -34,9 +34,11 @@ links_sjwp_u = {
 }
 
 links_sjwp_n = {    
-    '12. Metaelementi': 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/Ea2MgErHr7ZPi_DqNpaTFbkBbVwxDh0MnLd1Xd6ck3FAUQ?e=8ai7eZ',
+    '12. Metaelementi': 'Ea2MgErHr7ZPi_DqNpaTFbkBbVwxDh0MnLd1Xd6ck3FAUQ',
+    '13. Dodavanje i uređivanje teksta': 'EVRy-eX6rJdEjZGhZl1lhtUByman_lkCi0zeXJLxy0bhKQ',
     '14. Izradba tablica': 'EUs4Y_pcF_FBpOMUpwXw6PcBBBWmfLOS8BskO9I_32IQRA',
-    '15. Oblikovanje liste': 'ETLBdJjUc15Mj-O5HVYXFvkBRVgafcB7h7TJSdCTG1jXzA'
+    '15. Oblikovanje liste': 'ETLBdJjUc15Mj-O5HVYXFvkBRVgafcB7h7TJSdCTG1jXzA',
+    '16. Ugradnja slika': 'ERf5K-vimIpMqC-Dtd5QjkUB7on_1QZ1Xelcv6fexPPFUg'
 }
 
 flask = {
