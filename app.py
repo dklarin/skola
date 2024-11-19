@@ -32,12 +32,14 @@ def operacijski_sustavi():
     link1 = '/opsus'
     link2 = '/sjwp'
     link3 = '/pmu'
+    link4 = '/wd'
     return render_template('index.html', 
                            var=var,
                            title=title, 
                            link1=link1, 
                            link2=link2, 
                            link3=link3, 
+                           link4=link4,
                            links_it=links
                            )
 
@@ -48,13 +50,33 @@ def skriptni_jezici_i_web_programiranje():
     link1 = '/opsus'
     link2 = '/sjwp'
     link3 = '/pmu'
+    link4 = '/wd'
     return render_template('index.html', 
                            var=var, 
                            title=title, 
                            link1=link1, 
                            link2=link2, 
                            link3=link3, 
+                           link4=link4,
                            links_it=links_sjwp_n
+                           )
+
+# flask-bootstrap
+@app.route('/wd')
+def web_dizajn():
+    title = 'Web dizajn'
+    link1 = '/opsus'
+    link2 = '/sjwp'
+    link3 = '/pmu'
+    link4 = '/wd'
+    return render_template('index.html', 
+                           var=var, 
+                           title=title, 
+                           link1=link1, 
+                           link2=link2, 
+                           link3=link3, 
+                           link4=link4,
+                           links_it=web_dizajn_3
                            )
 
 # flask-bootstrap
