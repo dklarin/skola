@@ -19,72 +19,99 @@ def index():
                            flask=flask
                            )
 
+@app.route('/frame')
+def frame():
+    return render_template('frame.html')
+
 # flask-bootstrap
 @app.route('/it')
 def informacijske_tehnologije():
     title = 'Informacijske tehnologije'
     return render_template('index.html', var=var, title=title, links_it=links_it)
 
+link1 = '/opsus'
+link2 = '/sjwp_1'
+link3 = '/react-native'
+link4 = '/wd_1'
+
+subject1 = 'Operacijski sustavi'
+subject2 = 'Skriptni jezici i web programiranje 1'
+subject3 = 'Programiranje mobilnih uređaja'
+subject4 = 'Web dizajn 1'
+
+# 3. razred
 # flask-bootstrap
 @app.route('/opsus')
 def operacijski_sustavi():
-    title = 'Operacijski sustavi'
-    link1 = '/opsus'
-    link2 = '/sjwp'
-    link3 = '/pmu'
-    link4 = '/wd'
+    title = 'Operacijski sustavi'  
     return render_template('index.html', 
-                           var=var,
-                           title=title, 
-                           link1=link1, 
-                           link2=link2, 
-                           link3=link3, 
-                           link4=link4,
-                           links_it=links
-                           )
+                            var=var,
+                            title=title, 
+                            link1=link1, 
+                            link2=link2, 
+                            link3=link3, 
+                            link4=link4,
+                            subject1=subject1,
+                            subject2=subject2,
+                            subject3=subject3,
+                            subject4=subject4,
+                            links_it=links
+                            )
 
 # flask-bootstrap
-@app.route('/sjwp')
-def skriptni_jezici_i_web_programiranje():
-    title = 'Skriptni jezici i web programiranje'
-    link1 = '/opsus'
-    link2 = '/sjwp'
-    link3 = '/pmu'
-    link4 = '/wd'
+@app.route('/sjwp_1')
+def skriptni_jezici_i_web_programiranje_1():
+    title = 'Skriptni jezici i web programiranje 1'    
     return render_template('index.html', 
-                           var=var, 
-                           title=title, 
-                           link1=link1, 
-                           link2=link2, 
-                           link3=link3, 
-                           link4=link4,
-                           links_it=links_sjwp_n
-                           )
+                            var=var, 
+                            title=title, 
+                            link1=link1, 
+                            link2=link2, 
+                            link3=link3, 
+                            link4=link4,
+                            subject1=subject1,
+                            subject2=subject2,
+                            subject3=subject3,
+                            subject4=subject4,
+                            links_it=links_sjwp_n
+                            )
 
 # flask-bootstrap
-@app.route('/wd')
-def web_dizajn_3():
-    title = 'Web dizajn'
-    link1 = '/opsus'
-    link2 = '/sjwp'
-    link3 = '/pmu'
-    link4 = '/wd'
+@app.route('/wd_1')
+def web_dizajn_1():
+    title = 'Web dizajn'   
     return render_template('index.html', 
-                           var=var, 
-                           title=title, 
-                           link1=link1, 
-                           link2=link2, 
-                           link3=link3, 
-                           link4=link4,
-                           links_it=links_web_dizajn_3
-                           )
+                            var=var, 
+                            title=title, 
+                            link1=link1, 
+                            link2=link2, 
+                            link3=link3, 
+                            link4=link4,
+                            subject1=subject1,
+                            subject2=subject2,
+                            subject3=subject3,
+                            subject4=subject4,
+                            links_it=links_web_dizajn_3
+                            )
 
 # flask-bootstrap
 @app.route('/react-native')
 def react_native():
-    title = 'Programiranje mobilnih uređaja'
-    return render_template('index.html', title=title, links_it=links)
+    title = 'Programiranje mobilnih uređaja'   
+    return render_template('index.html', 
+                            var=var, 
+                            title=title, 
+                            link1=link1, 
+                            link2=link2, 
+                            link3=link3, 
+                            link4=link4,
+                            subject1=subject1,
+                            subject2=subject2,
+                            subject3=subject3,
+                            subject4=subject4,
+                            links_it=links_react_native
+                            )
 
 if __name__ == "__main__":
-    #app.run(debug=True)
-    app.run(host='0.0.0.0', port=4000)
+    app.run(debug=True)
+    #app.run(host='0.0.0.0', port=4000)

@@ -4,104 +4,80 @@
 
 <style></style>
 
-{% endblock %} 
+{% endblock %} {% block content %}
 
-
-
-{% block content %}
-
-<div class=" container-fluid text-left">
-    <div class="row">
-        <div class="col-md-2 sidenav">
-           
-        </div>
-        <div class="col-md-8 text-center">
-                <div class="page-header">
-    
-                    <a href="{{ link1 }}" class="btn btn-primary btn-lg" role="button" aria-disabled="true">
-                        {{ link1 }}</a>
-                    <a href="{{ link2 }}" class="btn btn-primary btn-lg" role="button" aria-disabled="true">
-                        {{ link2 }}</a>
-                    <a href="{{ link3 }}" class="btn btn-primary btn-lg" role="button" aria-disabled="true">
-                        {{ link3 }}</a>
-                    <a href="{{ link4 }}" class="btn btn-primary btn-lg" role="button" aria-disabled="true">
-                        {{ link4 }}</a>
-    
-                </div>
-            </div>
-            <div class="col-md-2 sidenav">
-    
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-2 sidenav">
-            </div>
-    
-            <div class="col-md-8 text-center">
-    
-               
-    
-                
-            </div>
-    
-            <div class="col-md-2 sidenav">
-            </div>
-    
-        </div>
-
-        <div class="row">
-       
-
-                <div class="col-md-12 text-center">
-        
-                    <h1>{{ title }}</h1>
-                    <br>
-        
-        
-                </div>
-               
-            </div>
-
-        <div class="row">
-            <div class="col-md-2 sidenav">
-    
-            </div>
-            <div class="col-md-8 text-left">
-                <div class="moja">
-    
-                    
-                        
-                    <ul>
-                    <table class="table table-bordered table-striped">
-                        <thead>
-                            <tr>
-                                <th>Title</th>
-                              
-                            </tr>
-                        </thead>
-                        <tbody>
-                          {% for name, link in links_it.items() %}
-                            <tr>
-                              
-
-
-                              
-                                <td><a href="{{var}}{{ link }}">{{ name }}</a></td>
-                             
-
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-2 sidenav">
-            
-        </div>
+<div class="container-fluid text-left">
+  <!--Redak 1-->
+  <div class="row">
+    <div class="col-md-2 sidenav"></div>
+    <div class="col-md-8 text-center">
+      <a
+        href="{{ link1 }}"
+        class="btn btn-primary btn-lg"
+        role="button"
+        style="width: 300px"
+        aria-disabled="true"
+      >
+        {{ subject1 }}</a
+      >
+      <a
+        href="{{ link2 }}"
+        class="btn btn-primary btn-lg"
+        role="button"
+        style="width: 300px"
+        aria-disabled="true"
+      >
+        {{ subject2 }}</a
+      >
+      <a
+        href="{{ link3 }}"
+        class="btn btn-primary btn-lg"
+        role="button"
+        style="width: 300px"
+        aria-disabled="true"
+      >
+        {{ subject3 }}</a
+      >
+      <a
+        href="{{ link4 }}"
+        class="btn btn-primary btn-lg"
+        role="button"
+        style="width: 300px"
+        aria-disabled="true"
+      >
+        {{ subject4 }}</a
+      >
     </div>
+    <div class="col-md-2 sidenav"></div>
+  </div>
+  <!--Redak 2-->
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>{{ title }}</h1>
+      <br />
+    </div>
+  </div>
+  <!--Redak 3-->
+  <div class="row">
+    <div class="col-md-2 sidenav"></div>
+    <div class="col-md-8 text-left">
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for name, link in links_it.items() %}
+          <tr>
+            <td><a href="{{var}}{{ link }}">{{ name }}</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-2 sidenav"></div>
+  </div>
 </div>
 
 {% endblock %}

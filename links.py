@@ -55,5 +55,10 @@ links_web_dizajn_3 = {
     '1.2. Izrada novog dokumenta': 'EYhn-L3DcjRHktX8kg6YrDcB5eUwSGaEjXIv72RbGUoYDQ'
 }
 
+links_react_native = {
+    '0. Što je React Native': 'EVqOlaAn11JNgHx0o_11MnEBIkK07rwEJxJCPhwQzW0MgQ',
+    '1. Programska podrška za mobilne uređaje': 'EdbRmq9qCftDqYVddVYa9ZUBQcaqSR8VJOZGjfLWYQU0uA'
+}
+
 
 
