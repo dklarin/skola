@@ -33,12 +33,20 @@ links_sjwp_u = {
     '3. Općenito o CSS-u': 'EX_ZjWSlj2dCm9Y0p396cP4BoNrDer4GpFVVBhry7uPFoA?e=YLUfoM'
 }
 
-links_sjwp_n = {    
-    '12. Metaelementi': 'Ea2MgErHr7ZPi_DqNpaTFbkBbVwxDh0MnLd1Xd6ck3FAUQ',
-    '13. Dodavanje i uređivanje teksta': 'EVRy-eX6rJdEjZGhZl1lhtUByman_lkCi0zeXJLxy0bhKQ',
-    '14. Izradba tablica': 'EUs4Y_pcF_FBpOMUpwXw6PcBBBWmfLOS8BskO9I_32IQRA',
-    '15. Oblikovanje liste': 'ETLBdJjUc15Mj-O5HVYXFvkBRVgafcB7h7TJSdCTG1jXzA',
-    '16. Ugradnja slika': 'ERf5K-vimIpMqC-Dtd5QjkUB7on_1QZ1Xelcv6fexPPFUg'
+links_sjwp_1_kodovi = {    
+    'Poveznice': 'EeW38fY2R1FCkIZwK6-pbXIB0zHrH1D-YNgaDc3w_Mx-4A?e=VuiLz7',
+    'Tablice': 'ET3Zx8QirylJkBhmav3PBdkByzXjU-yJ-jP1Uog-tzCCBw?e=wHV5cm',
+    'Slike': 'Ec-AO99Ag11CsVYes47XJzUBua34eCLwl8rwvaXxtSBRlg?e=SXm950',
+    'Liste': 'ESQ3-rxkN3RHiLZjVu_kdVcBIDeS0MTuTnyvm0yg0s1KYw?e=ZGEhbU',
+    'Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'ETAlsrndsxdHjnt5qVk4GTABmniGa10kn-WSOFACuuqULA?e=OOiF83'
+}
+
+links_sjwp_1_literatura = {    
+    'Ne radi još': 'EeW38fY2R1FCkIZwK6-pbXIB0zHrH1D-YNgaDc3w_Mx-4A?e=VuiLz7',
+    'Ne radi još': 'ET3Zx8QirylJkBhmav3PBdkByzXjU-yJ-jP1Uog-tzCCBw?e=wHV5cm',
+    'Ne radi još': 'Ec-AO99Ag11CsVYes47XJzUBua34eCLwl8rwvaXxtSBRlg?e=SXm950',
+    'Ne radi još': 'ESQ3-rxkN3RHiLZjVu_kdVcBIDeS0MTuTnyvm0yg0s1KYw?e=ZGEhbU',
+    'Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'EabNYYBkIc5Nhh5L845XWAgBPujKKxz5lRe6YlDAobtReA?e=cVo405'
 }
 
 flask = {

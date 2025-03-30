@@ -1,23 +1,24 @@
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from links import *
+
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 
 var = 'https://carnet-my.sharepoint.com/:b:/g/personal/danijel_klarin_skole_hr/'
 
-@app.route('/')
+'''@app.route('/')
 def index():
     return render_template('cs-for.html', 
                            var=var,
                            links_it=links_it,
                            links=links, 
                            links_sjwp_u=links_sjwp_u, 
-                           links_sjwp_n=links_sjwp_n,
+                           links_sjwp_n=links_sjwp_u,
                            software=software,
                            web_dizajn=web_dizajn,
                            flask=flask
-                           )
+                           )'''
 
 @app.route('/frame')
 def frame():
@@ -30,14 +31,14 @@ def informacijske_tehnologije():
     return render_template('index.html', var=var, title=title, links_it=links_it)
 
 link1 = '/opsus'
-link2 = '/sjwp_1'
+link2 = '/'
 link3 = '/react-native'
 link4 = '/wd_1'
 
-subject1 = 'Operacijski sustavi'
+subject1 = 'Ne radi još' #'Operacijski sustavi'
 subject2 = 'Skriptni jezici i web programiranje 1'
-subject3 = 'Programiranje mobilnih uređaja'
-subject4 = 'Web dizajn 1'
+subject3 = 'NE radi još' #'Programiranje mobilnih uređaja'
+subject4 = 'Ne radi još' #'Web dizajn 1'
 
 # 3. razred
 # flask-bootstrap
@@ -59,7 +60,7 @@ def operacijski_sustavi():
                             )
 
 # flask-bootstrap
-@app.route('/sjwp_1')
+@app.route('/')
 def skriptni_jezici_i_web_programiranje_1():
     title = 'Skriptni jezici i web programiranje 1'    
     return render_template('index.html', 
@@ -73,7 +74,8 @@ def skriptni_jezici_i_web_programiranje_1():
                             subject2=subject2,
                             subject3=subject3,
                             subject4=subject4,
-                            links_it=links_sjwp_n
+                            links_it=links_sjwp_1_kodovi,
+                            links_lit=links_sjwp_1_literatura
                             )
 
 # flask-bootstrap
