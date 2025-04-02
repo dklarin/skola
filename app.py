@@ -32,12 +32,12 @@ def informacijske_tehnologije():
 
 link1 = '/opsus'
 link2 = '/'
-link3 = '/react-native'
+link3 = '/pmu_1'
 link4 = '/wd_1'
 
 subject1 = 'Ne radi još' #'Operacijski sustavi'
 subject2 = 'Skriptni jezici i web programiranje 1'
-subject3 = 'NE radi još' #'Programiranje mobilnih uređaja'
+subject3 = 'Programiranje mobilnih uređaja'
 subject4 = 'Ne radi još' #'Web dizajn 1'
 
 # 3. razred
@@ -79,6 +79,25 @@ def skriptni_jezici_i_web_programiranje_1():
                             )
 
 # flask-bootstrap
+@app.route('/pmu_1')
+def react_native():
+    title = 'Programiranje mobilnih uređaja'   
+    return render_template('index.html', 
+                            var=var, 
+                            title=title, 
+                            link1=link1, 
+                            link2=link2, 
+                            link3=link3, 
+                            link4=link4,
+                            subject1=subject1,
+                            subject2=subject2,
+                            subject3=subject3,
+                            subject4=subject4,
+                            links_it=links_sjwp_1_literatura,
+                            links_lit=links_pmu_1_literatura
+                            )
+
+# flask-bootstrap
 @app.route('/wd_1')
 def web_dizajn_1():
     title = 'Web dizajn'   
@@ -96,23 +115,7 @@ def web_dizajn_1():
                             links_it=links_web_dizajn_3
                             )
 
-# flask-bootstrap
-@app.route('/react-native')
-def react_native():
-    title = 'Programiranje mobilnih uređaja'   
-    return render_template('index.html', 
-                            var=var, 
-                            title=title, 
-                            link1=link1, 
-                            link2=link2, 
-                            link3=link3, 
-                            link4=link4,
-                            subject1=subject1,
-                            subject2=subject2,
-                            subject3=subject3,
-                            subject4=subject4,
-                            links_it=links_react_native
-                            )
+
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -50,6 +50,12 @@ links_sjwp_1_literatura = {
     'Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'EabNYYBkIc5Nhh5L845XWAgBPujKKxz5lRe6YlDAobtReA?e=cVo405'
 }
 
+links_pmu_1_literatura = {
+    'Try-catch': 'ESxrqV5TKoJErMlB1K_piGEBVjm_CxyegVA8GcIF19QQqQ?e=349GRg'
+}
+   
+
+
 flask = {
     '1. Prvi projekt': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg?e=8pBKbq',
     '3. Templates 2': 'Edo8EuhqmaZIlbuZ_V1W780Bq8dxj4kVLTWmB_szxdX7OQ'
