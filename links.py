@@ -33,7 +33,8 @@ links_sjwp_u = {
     '3. Općenito o CSS-u': 'EX_ZjWSlj2dCm9Y0p396cP4BoNrDer4GpFVVBhry7uPFoA?e=YLUfoM'
 }
 
-links_sjwp_1_kodovi = {    
+links_sjwp_1_kodovi = { 
+    'Oblikovanje teksta': 'EawhO-ShpfhDkg2aGlLyhm8BijRizwXJbcZxA3pupSuKdQ?e=hrRQHL',
     'Poveznice': 'EeW38fY2R1FCkIZwK6-pbXIB0zHrH1D-YNgaDc3w_Mx-4A?e=VuiLz7',
     'Tablice': 'ET3Zx8QirylJkBhmav3PBdkByzXjU-yJ-jP1Uog-tzCCBw?e=wHV5cm',
     'Slike': 'Ec-AO99Ag11CsVYes47XJzUBua34eCLwl8rwvaXxtSBRlg?e=SXm950',
@@ -45,7 +46,7 @@ links_sjwp_1_literatura = {
     'Ne radi još': 'EeW38fY2R1FCkIZwK6-pbXIB0zHrH1D-YNgaDc3w_Mx-4A?e=VuiLz7',
     'Ne radi još': 'ET3Zx8QirylJkBhmav3PBdkByzXjU-yJ-jP1Uog-tzCCBw?e=wHV5cm',
     'Ne radi još': 'Ec-AO99Ag11CsVYes47XJzUBua34eCLwl8rwvaXxtSBRlg?e=SXm950',
-    'Ne radi još': 'ESQ3-rxkN3RHiLZjVu_kdVcBIDeS0MTuTnyvm0yg0s1KYw?e=ZGEhbU',
+    'Oblikovanje teksta': 'ESFgmyg1zExPoEP9weyUcWwBX39WGAR17UntgQWVAyQyQA?e=6Osq01',
     'Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'EabNYYBkIc5Nhh5L845XWAgBPujKKxz5lRe6YlDAobtReA?e=cVo405'
 }
 
