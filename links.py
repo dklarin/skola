@@ -37,24 +37,23 @@ links_sjwp_1_kodovi = {
     'Oblikovanje teksta': 'EawhO-ShpfhDkg2aGlLyhm8BijRizwXJbcZxA3pupSuKdQ?e=hrRQHL',
     'Poveznice': 'EeW38fY2R1FCkIZwK6-pbXIB0zHrH1D-YNgaDc3w_Mx-4A?e=VuiLz7',
     'Tablice': 'ET3Zx8QirylJkBhmav3PBdkByzXjU-yJ-jP1Uog-tzCCBw?e=wHV5cm',
-    'Slike': 'Ec-AO99Ag11CsVYes47XJzUBua34eCLwl8rwvaXxtSBRlg?e=SXm950',
-    'Liste': 'ESQ3-rxkN3RHiLZjVu_kdVcBIDeS0MTuTnyvm0yg0s1KYw?e=ZGEhbU',
-    'Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'ETAlsrndsxdHjnt5qVk4GTABmniGa10kn-WSOFACuuqULA?e=OOiF83'
+    '20. Slike': 'Ec-AO99Ag11CsVYes47XJzUBua34eCLwl8rwvaXxtSBRlg?e=SXm950',
+    '21. Liste': 'ESQ3-rxkN3RHiLZjVu_kdVcBIDeS0MTuTnyvm0yg0s1KYw?e=ZGEhbU',
+    '23. Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'ETAlsrndsxdHjnt5qVk4GTABmniGa10kn-WSOFACuuqULA'
 }
 
 links_sjwp_1_literatura = {    
     'Ne radi još': 'EeW38fY2R1FCkIZwK6-pbXIB0zHrH1D-YNgaDc3w_Mx-4A?e=VuiLz7',
     'Ne radi još': 'ET3Zx8QirylJkBhmav3PBdkByzXjU-yJ-jP1Uog-tzCCBw?e=wHV5cm',
     'Ne radi još': 'Ec-AO99Ag11CsVYes47XJzUBua34eCLwl8rwvaXxtSBRlg?e=SXm950',
-    'Oblikovanje teksta': 'ESFgmyg1zExPoEP9weyUcWwBX39WGAR17UntgQWVAyQyQA?e=6Osq01',
-    'Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'EabNYYBkIc5Nhh5L845XWAgBPujKKxz5lRe6YlDAobtReA?e=cVo405'
+    '21. Liste': 'ESFgmyg1zExPoEP9weyUcWwBX39WGAR17UntgQWVAyQyQA',
+    '23. Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'EabNYYBkIc5Nhh5L845XWAgBPujKKxz5lRe6YlDAobtReA'
 }
 
 links_pmu_1_literatura = {
-    'Try-catch': 'ESxrqV5TKoJErMlB1K_piGEBVjm_CxyegVA8GcIF19QQqQ?e=349GRg'
+    'Try-catch': 'ESxrqV5TKoJErMlB1K_piGEBVjm_CxyegVA8GcIF19QQqQ',
+    'Dozvole': 'EYfXCWegUEdGuUxgWv2jUd4BenqpbCTdMk6yjhcdq__-bQ',
 }
-   
-
 
 flask = {
     '1. Prvi projekt': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg?e=8pBKbq',
@@ -70,10 +69,7 @@ links_web_dizajn_3 = {
     '1.2. Izrada novog dokumenta': 'EYhn-L3DcjRHktX8kg6YrDcB5eUwSGaEjXIv72RbGUoYDQ'
 }
 
-links_react_native = {
+'''links_react_native = {
     '0. Što je React Native': 'EVqOlaAn11JNgHx0o_11MnEBIkK07rwEJxJCPhwQzW0MgQ',
     '1. Programska podrška za mobilne uređaje': 'EdbRmq9qCftDqYVddVYa9ZUBQcaqSR8VJOZGjfLWYQU0uA'
-}
-
-
-
+}'''
