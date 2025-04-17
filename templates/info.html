@@ -1,0 +1,63 @@
+<!-- TEMPLATE INHERITANCE 2 -->
+
+{% extends "base.html" %} {% block head %} {{ super() }}
+
+<style></style>
+
+{% endblock %} {% block content %}
+
+<div class="container-fluid text-left">
+  <!--Redak 1-->
+  <div class="row">
+    <div class="col-md-2 sidenav"></div>
+    <div class="col-md-8 text-center">
+      <a href="{{ link1 }}" class="btn btn-primary btn-lg" role="button" style="width: 300px" aria-disabled="true">
+        {{ subject1 }}</a>
+      <a href="{{ link2 }}" class="btn btn-primary btn-lg" role="button" style="width: 300px" aria-disabled="true">
+        {{ subject2 }}</a>
+      <a href="{{ link3 }}" class="btn btn-primary btn-lg" role="button" style="width: 300px" aria-disabled="true">
+        {{ subject3 }}</a>
+      <a href="{{ link4 }}" class="btn btn-primary btn-lg" role="button" style="width: 300px" aria-disabled="true">
+        {{ subject4 }}</a>
+    </div>
+    <div class="col-md-2 sidenav"></div>
+  </div>
+  <!--Redak 2-->
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>{{ title }}</h1>
+      <br />
+    </div>
+  </div>
+  <!--Redak 3-->
+  <div class="row">
+    <div class="col-md-2 sidenav"></div>
+    <div class="col-md-8 text-left">
+      
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Nastavni predmet</th>
+            <th>Datum</th>
+            <th>Bilješka</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in links_lit %}
+          <tr>
+            <td>{{item.predmet}}</td>
+            <td>{{ item.datum }}</td>
+            <td>{{ item.biljeska }}</td>
+          </tr>
+          {% endfor %}
+
+        </tbody>
+      </table>
+
+
+    </div>
+    <div class="col-md-2 sidenav"></div>
+  </div>
+</div>
+
+{% endblock %}

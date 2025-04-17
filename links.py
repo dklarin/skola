@@ -55,6 +55,8 @@ links_pmu_1_literatura = {
     'Dozvole': 'EYfXCWegUEdGuUxgWv2jUd4BenqpbCTdMk6yjhcdq__-bQ',
 }
 
+info = [{'predmet': 'Skriptni jezici i web programiranje 1', 'datum': '9.5.2025 (Petak)', 'biljeska': '2. pisana provjera znanja'}]
+
 flask = {
     '1. Prvi projekt': 'ETehfSJLnjROuFpGUt0ZWcsBGMhwJYFjHkmkmrK4Z_n4vg?e=8pBKbq',
     '3. Templates 2': 'Edo8EuhqmaZIlbuZ_V1W780Bq8dxj4kVLTWmB_szxdX7OQ'
