@@ -51,9 +51,9 @@ links_sjwp_1_literatura = {
 }
 
 links_pmu_1_literatura = {
-    'Što je React-Native?': 'EbpeuGTrYvBBoJicWDxVCIYB6YZIrdOpdRhAR7es8BMIwg',
-    'Try-catch': 'ESxrqV5TKoJErMlB1K_piGEBVjm_CxyegVA8GcIF19QQqQ',
-    'Dozvole': 'EYfXCWegUEdGuUxgWv2jUd4BenqpbCTdMk6yjhcdq__-bQ',
+    '1. Što je React-Native?': 'EbpeuGTrYvBBoJicWDxVCIYB6YZIrdOpdRhAR7es8BMIwg',
+    '2. Try-catch': 'ESxrqV5TKoJErMlB1K_piGEBVjm_CxyegVA8GcIF19QQqQ',
+    '3. Dozvole': 'EYfXCWegUEdGuUxgWv2jUd4BenqpbCTdMk6yjhcdq__-bQ',
 }
 
 info = [{'predmet': 'Skriptni jezici i web programiranje 1', 'datum': '9.5.2025 (Petak)', 'biljeska': '2. pisana provjera znanja'}]
@@ -72,7 +72,4 @@ links_web_dizajn_3 = {
     '1.2. Izrada novog dokumenta': 'EYhn-L3DcjRHktX8kg6YrDcB5eUwSGaEjXIv72RbGUoYDQ'
 }
 
-'''links_react_native = {
-    '0. Što je React Native': 'EVqOlaAn11JNgHx0o_11MnEBIkK07rwEJxJCPhwQzW0MgQ',
-    '1. Programska podrška za mobilne uređaje': 'EdbRmq9qCftDqYVddVYa9ZUBQcaqSR8VJOZGjfLWYQU0uA'
-}'''
+
