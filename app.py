@@ -45,8 +45,8 @@ def operacijski_sustavi():
 # flask-bootstrap
 @app.route("/sjwp_1")
 def skriptni_jezici_i_web_programiranje_1():
-    title1 = "1. Kôdovi za 1. i 2. mrežnu stranicu"
-    title2 = "2. Literatura za 2. pisanu provjeru znanja"
+    title1 = "Kôdovi za 1. i 2. mrežnu stranicu"
+    title2 = "Literatura za 2. pisanu provjeru znanja"
     return render_template(
         "index.html",
         var=var,
