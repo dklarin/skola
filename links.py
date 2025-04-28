@@ -1,3 +1,11 @@
+'''links_opsus_vjezbe = {
+    '1. Pregled i upravljanje procesima': 'Ec-vrwg4iNhNraAcpi7eU4cBsB_L_UQneVCwdHZG8w_uJA'
+}'''
+
+links_opsus_vjezbe = [{
+    'redni_broj': 1, 'naziv': 'Pregled i upravljanje procesima', 'link': 'Ec-vrwg4iNhNraAcpi7eU4cBsB_L_UQneVCwdHZG8w_uJA'    
+}]
+
 # Funkcionalno
 links_sjwp_1_kodovi = { 
     '17. Oblikovanje teksta': 'EawhO-ShpfhDkg2aGlLyhm8BijRizwXJbcZxA3pupSuKdQ?e=hrRQHL',
@@ -8,7 +16,7 @@ links_sjwp_1_kodovi = {
     '23. Oblikovanje mrežnog sjedišta s pomoću HTML-a': 'ETAlsrndsxdHjnt5qVk4GTABmniGa10kn-WSOFACuuqULA'
 }
 
-# Ovo je funkcionalno
+# Funkcionalno
 links_sjwp_1_literatura = {    
     '18. Poveznice': 'EavqxejKxPVDm9O8ydXiSG4BgqTe6LvBiR14MN3aA7obMA',
     '21. Liste': 'EUbaZSksLYhHvC0ozK_ECm4Bkf5c1Ht6kcCcm5YGvBEgGQ',
@@ -20,7 +28,7 @@ links_sjwp_1_literatura = {
     '35. Fontovi': 'EV--C1AF7z1Mv6OKAjHeAaYB67DEKISXqenzL_Sn_VWihQ'
 }
 
-# Ovo je funkcionalno
+# Funkcionalno
 links_pmu_1_literatura = {
     '1. Što je React-Native?': 'EbpeuGTrYvBBoJicWDxVCIYB6YZIrdOpdRhAR7es8BMIwg',
     '2. Try-catch': 'ESxrqV5TKoJErMlB1K_piGEBVjm_CxyegVA8GcIF19QQqQ',

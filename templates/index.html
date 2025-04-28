@@ -43,21 +43,26 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th>Kôdovi</th>
+            <th style="width: 10%">Redni broj</th>
+            <th>Naziv</th>
           </tr>
         </thead>
         <tbody>
-          {% for name, link in links_it.items() %}
+          {% for item in gornja_tablica %}
           <tr>
-            <td><a href="{{ var }}{{ link }}" target="_blank">{{ name }}</a></td>
+            <td>{{ item.redni_broj }}</td>
+            <td><a href="{{ var }}{{ item.link }}" target="_blank">{{ item.naziv }}</a></td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
-      <!--Tablica 1-->
+      <!--Tablica 1-->    
 
       <br>
 
+      {% if not donja_tablica %}
+      <div></div> 
+      {% else %}
       <h2>{{ title2 }}</h2>
 
       <br>
@@ -66,17 +71,18 @@
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
-            <th>Literatura</th>
+            <th>Naziv</th>
           </tr>
         </thead>
-        <tbody>
-          {% for name, link in links_lit.items() %}
+        <tbody>          
+          {% for name, link in donja_tablica.items() %}
           <tr>
             <td><a href="{{ var }}{{ link }}" target="_blank">{{ name }}</a></td>
           </tr>
           {% endfor %}
         </tbody>
       </table>
+      {% endif %}
       <!--Tablica 2-->
 
     </div>
