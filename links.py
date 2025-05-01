@@ -2,11 +2,15 @@ links_opsus_vjezbe = [
     {
         "redni_broj": 1,
         "naziv": "Pregled i upravljanje procesima",
-        "link": "Ec-vrwg4iNhNraAcpi7eU4cBsB_L_UQneVCwdHZG8w_uJA",
+        "link": "EToegb-IxqBOuDpMQHYiL0kB7jQVl96ZlTfIMFVql1gwNw",
+    },
+    {
+        "redni_broj": 2,
+        "naziv": "Alati za pregled, upravljanje i analizu procesa",
+        "link": "Ecbbir07y2JBmiStUrYIVgsBGTn-FbFPLtlzAef3kzAjQQ",
     }
 ]
 
-# Funkcionalno
 links_sjwp_1_kodovi = [
     {
         "redni_broj": 17,
@@ -40,7 +44,6 @@ links_sjwp_1_kodovi = [
     },
 ]
 
-# Funkcionalno
 links_sjwp_1_literatura = {
     "18. Poveznice": "EavqxejKxPVDm9O8ydXiSG4BgqTe6LvBiR14MN3aA7obMA",
     "21. Liste": "EUbaZSksLYhHvC0ozK_ECm4Bkf5c1Ht6kcCcm5YGvBEgGQ",
@@ -52,7 +55,6 @@ links_sjwp_1_literatura = {
     "35. Fontovi": "EV--C1AF7z1Mv6OKAjHeAaYB67DEKISXqenzL_Sn_VWihQ",
 }
 
-# Funkcionalno
 links_pmu_1_literatura = [
     {
         "redni_broj": 1,
