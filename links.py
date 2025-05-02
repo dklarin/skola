@@ -2,12 +2,20 @@ links_opsus_vjezbe = [
     {
         "redni_broj": 1,
         "naziv": "Pregled i upravljanje procesima",
+        "cjelina": "Upravljanje procesima, sinkronizacija, paralelizam",
         "link": "EToegb-IxqBOuDpMQHYiL0kB7jQVl96ZlTfIMFVql1gwNw",
     },
     {
         "redni_broj": 2,
         "naziv": "Alati za pregled, upravljanje i analizu procesa",
+        "cjelina": "Upravljanje procesima, sinkronizacija, paralelizam",
         "link": "Ecbbir07y2JBmiStUrYIVgsBGTn-FbFPLtlzAef3kzAjQQ",
+    },
+    {
+        "redni_broj": 3,
+        "naziv": "Mrežni alati putem CMD-a",
+        "cjelina": "Mreža ravnopravnih korisnika i klijent-poslužitelj mreža",
+        "link": "Edq0hNqNbDROkU3v51WBAakBcZYUfCIBOY9WLt5M2QyoFw",
     }
 ]
 

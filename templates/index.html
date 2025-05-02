@@ -45,6 +45,7 @@
           <tr>
             <th style="width: 5%">Redni broj</th>
             <th>Naziv</th>
+            <th>Nastavna cjelina</th>
           </tr>
         </thead>
         <tbody>
@@ -52,6 +53,7 @@
           <tr>
             <td>{{ item.redni_broj }}</td>
             <td><a href="{{ var }}{{ item.link }}" target="_blank">{{ item.naziv }}</a></td>
+            <td>{{ item.cjelina }}</td>
           </tr>
           {% endfor %}
         </tbody>
