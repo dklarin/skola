@@ -3,21 +3,51 @@ links_opsus_vjezbe = [
         "redni_broj": 1,
         "naziv": "Pregled i upravljanje procesima",
         "cjelina": "Upravljanje procesima, sinkronizacija, paralelizam",
-        "link": "EToegb-IxqBOuDpMQHYiL0kB7jQVl96ZlTfIMFVql1gwNw",
+        "link": "EdGIU4jKXV5JtjAzu0VdBzABOrplojGGZaJwxiJCz3Y3fA",
     },
     {
         "redni_broj": 2,
         "naziv": "Alati za pregled, upravljanje i analizu procesa",
         "cjelina": "Upravljanje procesima, sinkronizacija, paralelizam",
-        "link": "Ecbbir07y2JBmiStUrYIVgsBGTn-FbFPLtlzAef3kzAjQQ",
+        "link": "Ea3WmmCHXjVDst7tqpzedEUBRdK_Qb1GUaljWinQOEKTnw?e=dadgiz",
     },
     {
         "redni_broj": 3,
+        "naziv": "Struktura Windows operacijskog sustava",
+        "cjelina": "Struktura Windows operacijskog sustava",
+        "link": "EW0UQtpIIK1HjbDmzwWj9SkBJWLE1V_dZPRN85sBzFOplA",
+    },
+    {
+        "redni_broj": 4,
         "naziv": "Mrežni alati putem CMD-a",
         "cjelina": "Mreža ravnopravnih korisnika i klijent-poslužitelj mreža",
-        "link": "Edq0hNqNbDROkU3v51WBAakBcZYUfCIBOY9WLt5M2QyoFw",
+        "link": "ERbDfXaQ0vNJomgSyZE1_7IBwiabzWAyRzYF23R6vZTuug",
+    },
+    {
+        "redni_broj": 5,
+        "naziv": "Struktura, administriranje i optimizacija operacijskog sustava Linux",
+        "cjelina": "Struktura, administriranje i optimizacija operacijskog sustava Linux",
+        "link": "EVBDQ_lXSMxGn4hYUicFWHcB4Y4tIJqPhsNXPVj5AFFEiw",
+    },
+    {
+        "redni_broj": 6,
+        "naziv": "Korisnički računi, dozvole",
+        "cjelina": "Korisnički računi, dozvole",
+        "link": "Ee8eq-CsDlZMrzebDrivdhwBJpbQ1_2Nu2Vm4SkcZMc5wg",
+    },
+    {
+        "redni_broj": 7,
+        "naziv": "Izrada sigurnosnih kopija",
+        "cjelina": "Spremanje podataka i izrada sigurnosnih kopija",
+        "link": "EXmo1OfNEZBGqywddxU_b48BD-ER_eWbzgWTZQZTxVfuog",
+    },
+    {
+        "redni_broj": 8,
+        "naziv": "Mrežna konfiguracija",
+        "cjelina": "Mrežna konfiguracija, mreža ravnopravnih korisnika s Linuxom",
+        "link": "EZswxT_TQ7dGt1UCQIhmXhYBY4TX3tM7_bMvKoCMxaaggw",
     }
-]
+]   
 
 links_sjwp_1_kodovi = [
     {
