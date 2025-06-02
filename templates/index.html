@@ -58,7 +58,36 @@
           {% endfor %}
         </tbody>
       </table>
-      <!--Tablica 1-->    
+      <!--Tablica 1-->  
+      
+        <br>
+
+      {% if not druga_tablica %}
+      <div></div> 
+      {% else %}
+      <h2>{{ title3 }}</h2>
+
+      <br>
+
+      <!--Tablica 2-->      
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Naziv</th>
+          </tr>
+        </thead>
+        <tbody>          
+          {% for item in druga_tablica %}
+          <tr>
+            <td>{{ item.redni_broj }}</td>
+            <td><a href="{{ var }}{{ item.link }}" target="_blank">{{ item.naziv }}</a></td>
+            <td>{{ item.cjelina }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% endif %}
+      <!--Tablica 2-->
 
       <br>
 

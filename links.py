@@ -76,6 +76,19 @@ links_sjwp_1_kodovi = [
     },
 ]
 
+links_sjwp_2_kodovi = [
+    {
+        "redni_broj": 45,
+        "naziv": "Model rasporeda FlexBox",
+        "link": "ESCuRZRat2lOk9fimh-IFVkBshpr1bMbk8M4YB6icf9zEg",
+    },
+    {
+        "redni_broj": 46,
+        "naziv": "Model rasporeda Grid",
+        "link": "Ee8OYvvhH95EpQrZYfmp5voBEgl0ArKOrKvM7H0q4A6JEg",
+    }
+]
+
 links_sjwp_1_literatura = {
     "18. Poveznice": "EavqxejKxPVDm9O8ydXiSG4BgqTe6LvBiR14MN3aA7obMA",
     "21. Liste": "EUbaZSksLYhHvC0ozK_ECm4Bkf5c1Ht6kcCcm5YGvBEgGQ",

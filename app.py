@@ -47,13 +47,16 @@ def operacijski_sustavi():
 def skriptni_jezici_i_web_programiranje_1():
     title1 = "Kôdovi za 1. i 2. mrežnu stranicu"
     title2 = "Literatura za 2. pisanu provjeru znanja"
+    title3 = "Kôdovi za 3. mrežnu stranicu"
     return render_template(
         "index.html",
         var=var,
         title=sjwp1,      
         title1=title1,
         title2=title2,
+        title3=title3,
         gornja_tablica=links_sjwp_1_kodovi,
+        druga_tablica=links_sjwp_2_kodovi,
         donja_tablica=links_sjwp_1_literatura,
     )
 
